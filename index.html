@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<title>Developer Ben</title>
+
+	<!-- Set the viewport width to device width for mobile -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Included Bootstrap CSS Files -->
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Css -->	
+	<link rel="stylesheet" href="./css/style.css" />
+
+	<!-- jQuery-->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("#about").click(function(){
+    	$("#about1").show();
+        $("#contact1").hide();
+        $("#work1").hide();
+        $("#picture").hide();
+    });
+    $("#work").click(function(){
+    	$("#work1").show();
+        $("#about1").hide();
+        $("#contact1").hide();
+        $("#picture").hide();
+    });
+    $("#contact").click(function(){
+    	$("#contact1").show();
+        $("#about1").hide();
+        $("#work1").hide();
+        $("#picture").hide();
+    });
+});
+</script>
+
+</head>
+<body>
+	<!-- main body -->
+
+
+<div class="top">
+
+<h1>Hello and Welcome!</h1>
+<br>
+<h2>My name is Ben, and I am a Front End Developer</h2>
+
+</div>
+<!--nav bar-->
+<div>
+	<nav>
+		<ul>
+			<li class="list" id="about">About</li>
+			<li class="list" id="work">Work</li>
+			<li class="list" id="contact">Contact</li>
+		</ul>
+	</nav>
+</div>
+
+		<img src="img/profile.jpg"id="picture">
+
+<!--information section-->
+<div id="about1">
+	<div class="row">
+		<div class=" col-md-5">
+			<h1 class="me">Things I Do</h1>
+			<ul class="me">
+				<li class="me">Rock Climb</li>
+				<li class="me">Music</li>
+				<li class="me">Guitar</li>
+				<li class="me">Beer</li>
+				<li class="me">Apple</li>
+			</ul>
+		</div>
+
+
+
+		<div class=" col-md-5">
+			<h1 class="bio">A little about Ben</h1>
+
+			<p class="bio">Hello, my name is Ben. I am from the Bay area and have been here for the past 27 years. I have been off and on in the development world, but more recently my interest for web development has been growing non-stop.</p>
+
+			<p class="bio">The most important thing you need to know about me is that I love perfect pixels. It doesn't matter on what screen or device.</p>
+
+			<p class="bio">My skills include Visual Design, User Experience Design, Motion, Mobile and basic HTML/CSS.</p>
+		</div>
+	</div>
+
+		<h1 class="skills">Skills</h1>
+	<div class="skills">
+		<div class="row">
+			<div class="col-md-3">
+				<img src="img/skills/html.png">
+				<p class="skills">
+					HTML5
+					<br>
+					<small>Experienced</small>
+				</p>
+				<p class="skills">Very comfortable coding in HTML.</p>
+			</div>
+			<div class="col-md-3">
+				<img src="img/skills/css.jpg">
+				<p class="skills">
+					CSS3
+					<br>
+					<small>Experienced</small>
+				</p>
+				<p class="skills">Can make adverse types of style pages.</p>
+			</div>
+			<div class="col-md-3">
+				<img src="img/skills/javascript.jpg">
+				<p class="skills">
+					JavaScript
+					<br>
+					<small>Novice</small>
+				</p>
+				<p class="skills">Something fun to play with and to make really interactive websites</p>
+			</div>
+			<div class="col-md-3">
+				<img src="img/skills/bootstrap.png">
+				<p class="skills">
+					Bootstrap
+					<br>
+					<small>Intermediate</small>
+				</p>
+				<p class="skills">A simply way for me to make a website responsive and clean</p>
+			</div>
+		</div>
+<!--Row two	-->
+		<div class="row mt">
+			<div class="col-md-4">
+				<img src="img/skills/jquery.jpg">
+				<p class="skills">
+					jQuery
+					<br>
+					<small>Novice</small>
+				</p>
+				<p class="skills">A fun way to add plugins to interact with JavaScript</p>
+			</div>
+			<div class="col-md-4">
+				<img src="img/skills/rails.jpg">
+				<p class="skills">
+					Ruby on Rails
+					<br>
+					<small>Novice</small>
+				</p>
+				<p class="skills">Backend development tool used to make apps for websites.</p>
+			</div>
+			<div class="col-md-4">
+				<img src="img/skills/github.png">
+				<p class="skills">
+					Git Hub
+					<br>
+					<small>Intermediate</small>
+				</p>
+				<p class="skills">Used to interact with other people and to host code.</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div id="work1">
+	<p class="test">la la la</p>
+</div>
+
+<div id="contact1">
+	<divclass="contain">
+    <form method="post" action="mail.php">
+      <div class="phone1">
+            <div>
+	            <p class="hello">DON'T BE SHY, GET IN TOUCH!</p>
+	            <p class="msg">Call, Text, Email, Mail, Anyway works! <br>I look forward to working with you!</p>
+	            <p class="msg">
+	                Tel. 415.497.2162<br>
+	                Email. bennru33@Gmail.com<br></small>
+	            </p>
+	            <p class="msg">
+	                <small>Address. 15 Elderberry Ct.<br>
+	                Novato, Ca, 94945, USA</small>
+	            </p>
+	            <a href="resume.html" class="resumelink">Resume</a>
+        	</div>
+	</div>
+</div>
+
+
+<script src="./js/jquery-2.1.1.min.js"></script>
+<script src="./js/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/jquery-validate/assets/js/jquery.validate.min.js"></script>
+<script src="./js/script.js"></script>
+
+
+</body>
+</html>
