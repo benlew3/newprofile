@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="google-site-verification" content="caLN2hkHF7yNgezUP1x1ya7SLT3niK4_EhsfHEn70n8" />
+	<title>Developer Ben</title>
+
+	<!-- Set the viewport width to device width for mobile -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Included Bootstrap CSS Files -->
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />
+
+	<!-- Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300' rel='stylesheet' type='text/css'>
+	
+	<!-- Css -->	
+	<link rel="stylesheet" href="./css/style.css" />
+
+	<style>
+.shakeimage{
+position:relative
+}
+</style>
+
+</head>
+<body>
+<!--header-->
+<div class="header">
+	<h2 class="name">Ben Lew</h2>
+	<h4 class="title">Front End Developer</h4>
+	<a href="resume.html" class="resumelink">Resume</a>
+</div>
+	<!-- main body -->
+<footer>
+	<div>
+		<img src ="img/monitor.png" class = "monitor" alt="monitor">
+		<img src="img/test1.png" class="desktop" alt="wallpaper">
+		<img src="img/left.png" class="left">
+		<a href="tablet.html"><img src="img/profile.png" onmouseover="this.src='img/profile2.png'" onmouseout="this.src='img/profile.png'" class="pic" alt="tablet"></a>
+		<img src ="img/tablet.png" class = "tablet" alt="profile picture">
+		<img src="img/right.png" class="right">
+		<a href="phone.html">
+		<img src="img/telephone.jpg" class="message" alt="telephone">
+		<img src="img/phone.png" class="shakeimage phone" onMouseover="init(this);rattleimage()" onMouseout="stoprattle(this);top.focus()" onClick="top.focus()"></a>
+	</div>
+</footer>
+
+<script src="./js/jquery-2.1.1.min.js"></script>
+<script src="./js/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/jquery-validate/assets/js/jquery.validate.min.js"></script>
+<script src="./js/script.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>

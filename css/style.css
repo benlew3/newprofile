@@ -3,8 +3,6 @@ body {
 	color: #EEEEEE;
 }
 
-
-
 h2 {
 	font-family: 'Titillium Web', sans-serif;
 	color: black;
@@ -47,6 +45,31 @@ nav ul li :hover {
 	font-size: 40px;
 	color: black;
 }
+/******** profile picture **************/
+#picture{
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 3%;	
+}
+
+/************ nav list info ****************/
+#work1{
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	text-align: center;
+	display: none;
+}
+
+#about1{
+	font-family: 'Titillium Web', sans-serif;
+	color: black;
+	text-align: center;
+	display: none;
+}
+
+/********* About Me Section *********/
 /*left about me */
 h1.me {
 	margin: 4% 0 1% 0; 
@@ -68,11 +91,12 @@ h1.bio {
 	font-size: 24px; color: #999; 
 	font-family: 'HeraBig-Regular', Arial, sans-serif;
 	text-decoration: underline;
+	color: #555;
 }
 
 p.bio {
-	font: italic 14px/22px Georgia, serif; 
-	color: #999; display: block; 
+	font: 14px/22px Georgia, serif; 
+	color: #555555; display: block; 
 	padding-top: 15px; 
 	padding-bottom: 10px;
 }
@@ -97,32 +121,31 @@ p.skills {
 	margin-bottom: 0;
 	line-height: 17px;
 }
+/************ end of about me *************/
 
-/*profile picture*/
-#picture{
-	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
-	display: block;
-	padding-top: 3%;	
-}
-
-/*nav list info*/
-#work1{
+/*********** Work Section ******************/
+.title{
 	font-family: 'Titillium Web', sans-serif;
 	color: black;
-	text-align: center;
-	display: none;
+	font-size: 20px;
 }
 
-#about1{
-	font-family: 'Titillium Web', sans-serif;
-	color: black;
-	text-align: center;
-	display: none;
+.images{
+	margin: auto;
 }
 
-/* contact section*/
+.more{
+	font: italic 30px Georgia, serif;
+	border-style: dotted;
+	border-width: 1px;
+	padding: 6% 5% 6% 5%;
+	margin: auto;
+	width: 32%;
+	text-align: center;
+}
+
+
+/************** contact section ***************/
 
 #contact1 {
 	font-family: 'Titillium Web', sans-serif;
@@ -145,7 +168,7 @@ p.skills {
 
 /* end of contact section*/
 
-/*resume css*/
+/**************** resume css ****************/
 .resume{
 	background-color: white;
 }
