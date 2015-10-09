@@ -19,64 +19,62 @@
 
 </head>
 <body>
+<a href="index.html"><img src="img/tablet/arrow.png" class="arrow1"></a>
 <div>
-	 <div class="contain">
+  <div class="contain">
     <form method="post" action="mail.php">
       <div class="phone1">
-            <div>
-              <p><font size="4.5"> DON'T BE SHY, GET IN TOUCH!</font></p>
-              <p>Call, Text, Email, Mail, Anyway works! <br>I look forward to working with you!</p>
-              <p>
-                <small>Tel. 415.497.2162<br>
-                Email. bennru33@Gmail.com<br></small>
-              </p>
-              <p>
-                <small>Address. 15 Elderberry Ct.<br>
-                Novato, Ca, 94945<br>
-                USA</small>
-              </p>
+        <div>
+          <p><font size="4.5"> DON'T BE SHY, GET IN TOUCH!</font></p>
+          <p>Call, Text, Email, Mail, Anyway works! <br>I look forward to working with you!</p>
+          <p>
+            <small>Tel. 415.497.2162<br>
+            Email. bennru33@Gmail.com<br></small>
+          </p>
+          <p>
+            <small>Address. 15 Elderberry Ct.<br>
+            Novato, Ca, 94945<br>
+            USA</small>
+          </p>
+        </div>
+      </div>
+    </form>
+    <div class="col-md-6 col-md-offset-2 contact">
+      <div class="well well-sm">
+        <div class="row">
+          <form method="post" action="mail.php">
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-user"></span>
+                  </span>
+                  <input name="contactname" type="text" class="form-control" id="name" placeholder="Enter Name" required="required" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="email">E-Mail Address</label>
+                <div class="input-group">
+                  <span class="input-group-addon">
+                    <span class="glyphicon glyphicon-envelope"></span>
+                  </span>
+                  <input name="contactemail" type="email" class="form-control" id="email" placeholder="Enter Email" required="required" />
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="Name">Message Me</label>
+                <textarea style="padding:5px" name="contactmessage" id="message" class="form-control" rows="5" cols="15" required="required" placeholder="Lets Get Started!"></textarea>
+              </div>
+              <div class="col-md-6">
+                <button type="submit" name="submit" class="button large ls-l btn-group-justified send" id="btnContactUs">Send Message</button>
+              </div>
             </div>
-
-        <div class="col-md-6 col-md-offset-2">
-            <div class="well well-sm">
-                
-                  <div class="row">
-                    <form method="post" action="mail.php">
-                      <div class="col-md-12">
-                          <div class="form-group">
-                              <label for="name">
-                                  Name
-                              </label>
-                              <div class="input-group">
-                                <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span>
-                                </span>
-                                <input name="contactname" type="text" class="form-control" id="name" placeholder="Enter Name" required="required" />
-                              </div>
-                          </div>
-                          <div class="form-group">
-                              <label for="email">
-                                  Email Address</label>
-                              <div class="input-group">
-                                  <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
-                                  </span>
-                                  <input name="contactemail" type="email" class="form-control" id="email" placeholder="Enter Email" required="required" /></div>
-                          </div>
-                          <div class="form-group">
-                              <label for="name">
-                                  Type Your Message</label>
-                              <textarea style="padding:5px" name="contactmessage" id="message" class="form-control" rows="5" cols="15" required="required"
-                                  placeholder="     Lets Get Started!"></textarea>
-                          </div>
-                      </div>
-                      <div class="col-md-6">
-                          <button type="submit" name="submit" class="button large ls-l btn-group-justified" id="btnContactUs">
-                              Send Message</button>
-                      </div>
-                  </div>
-                </form>
-            </div>
+          </form>
+        </div>
       </div>
     </div>
+  </div>
 </div>
 
 <script src="./js/jquery-2.1.1.min.js"></script>

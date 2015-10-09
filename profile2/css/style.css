@@ -244,14 +244,19 @@ input {
 
 	/*phone page*/
 	.contain {
-		width:40%;
+		width:584px;
 		margin: 0 auto;
 		margin-top: -3%;
 	    background: url("../img/phone-page.png");
 	    background-size: 500px 875px;
 	    background-repeat: no-repeat;
 	    height:1000px;
-}
+		}
+
+	.contact{
+		width:256px;
+		margin-left: 120px
+	}
 	.background{
 		background-color: #444;
 	}
@@ -262,6 +267,9 @@ input {
 		 margin:0 auto;
 		 padding-top:155px;
 		 color: white;
+	}
+	.send{
+		color:black;
 	}
 
 	.arrow2{
