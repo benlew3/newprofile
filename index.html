@@ -22,19 +22,19 @@
 <script>
 $(document).ready(function(){
     $("#about").click(function(){
-    	$("#about1").show();
+    	$("#about1").toggle();
         $("#contact1").hide();
         $("#work1").hide();
         $("#picture").hide();
     });
     $("#work").click(function(){
-    	$("#work1").show();
+    	$("#work1").toggle();
         $("#about1").hide();
         $("#contact1").hide();
         $("#picture").hide();
     });
     $("#contact").click(function(){
-    	$("#contact1").show();
+    	$("#contact1").toggle();
         $("#about1").hide();
         $("#work1").hide();
         $("#picture").hide();
@@ -71,109 +71,103 @@ $(document).ready(function(){
 	<!-- about section-->
 <div id="about1">
 	<div class="row">
-		<div class=" col-md-5">
-			<h1 class="me">Things I Do</h1>
-			<ul class="me">
-				<li class="me">Rock Climb</li>
-				<li class="me">Music</li>
-				<li class="me">Guitar</li>
-				<li class="me">Beer</li>
-				<li class="me">Surfing</li>
-				<li class="me">Back Packing</li>
-			</ul>
-		</div>
-
 		<div class=" col-md-6">
 			<h1 class="bio">A little about Ben</h1>
 
 			<p class="bio">Hello, my name is Ben. I am from the Bay area and have been here for the past 27 years. I have been off and on in the development world, but more recently my interest for web development has been growing non-stop.</p>
 
-			<p class="bio">I enjoy what I do. I like being able to create the ideas that come from my mind into interesting sites. My passion for coding started back in middle school when my parents sent me to a web design class in Berkeley. Being able to create ideas with photoshop and put it onto a website was exciting at that age. Just starting to see what the possibilities would be with programming.</p>
+			<p class="bio">I enjoy what I do. I like being make my ideas come into reality with my skills. My passion for coding started back in middle school when my parents sent me to a web design class in Berkeley. Being able to create ideas with photoshop and put it onto a website was exciting at that age. Just starting to see what the possibilities would be with programming.</p>
 
-			<p class="bio">I am always looking to expand myself, be it in developing or learning new skills. I feel that as we live our lives, we should see everything as a learning experience and never stop growing.</p>
+			<p class="bio">I am always looking for a expand myself, be it in developing or learning new skills. I feel that as we live our lives, we should see everything as a learning experience and never stop growing.</p>
 		</div>
+
+		<div class=" col-md-5 hobbies">
+			<h1 class="me">Things I Do</h1>
+			<ul class="me">
+				<li class="me">Rock climb where I can and when I can</li>
+				<li class="me">Listen to different genres of music</li>
+				<li class="me">Try to play guitar</li>
+				<li class="me">Drink and try out different beers</li>
+				<li class="me">Attempt to surf</li>
+				<li class="me">Go outdoors to backpack somewhere</li>
+			</ul>
+		</div>
+
 	</div>
 
 		<h1 class="skills">Skills</h1>
 
-	<div class="skills">
-		<div class="row">
-			<div class="col-md-3">
-				<img src="img/skills/html.png">
-				<p class="skills">
-					HTML5
-					<br>
-					<small>Experienced</small>
-				</p>
-				<p class="skills">Very comfortable coding in HTML.</p>
-			</div>
-			<div class="col-md-3">
-				<img src="img/skills/css.jpg">
-				<p class="skills">
-					CSS3
-					<br>
-					<small>Experienced</small>
-				</p>
-				<p class="skills">Can make adverse types of style pages.</p>
-			</div>
-			<div class="col-md-3">
-				<img src="img/skills/javascript.jpg">
-				<p class="skills">
-					JavaScript
-					<br>
-					<small>Novice</small>
-				</p>
-				<p class="skills">Something fun to play with and to make really interactive websites</p>
-			</div>
-			<div class="col-md-3">
-				<img src="img/skills/bootstrap.png">
-				<p class="skills">
-					Bootstrap
-					<br>
-					<small>Intermediate</small>
-				</p>
-				<p class="skills">A simply way for me to make a website responsive and clean</p>
-			</div>
-		</div>
-<!--Row two	-->
-		<div class="row mt">
-			<div class="col-md-4">
-				<img src="img/skills/jquery.jpg">
-				<p class="skills">
-					jQuery
-					<br>
-					<small>Novice</small>
-				</p>
-				<p class="skills">A fun way to add plugins to interact with JavaScript</p>
-			</div>
-			<div class="col-md-4">
-				<img src="img/skills/rails.jpg">
-				<p class="skills">
-					Ruby on Rails
-					<br>
-					<small>Novice</small>
-				</p>
-				<p class="skills">Backend development tool used to make apps for websites.</p>
-			</div>
-			<div class="col-md-4">
-				<img src="img/skills/github.png">
-				<p class="skills">
-					Git Hub
-					<br>
-					<small>Intermediate</small>
-				</p>
-				<p class="skills">Used to interact with other people and to host code.</p>
-			</div>
-		</div>
-	</div>
+	<ul class="skill">
+		<li class="skill">
+			<img src="img/skills/html.png">
+					<p class="skills">
+						HTML5
+						<br>
+						<small>Experienced</small>
+					</p>
+					<p class="skills">Very comfortable coding in HTML.</p>
+		</li>
+		<li class="skill">
+			<img src="img/skills/css.jpg">
+					<p class="skills">
+						CSS3
+						<br>
+						<small>Experienced</small>
+					</p>
+					<p class="skills">Can make adverse types of style pages.</p>
+		</li>
+		<li class="skill">
+			<img src="img/skills/javascript.jpg">
+					<p class="skills">
+						JavaScript
+						<br>
+						<small>Novice</small>
+					</p>
+					<p class="skills">Something fun to play with and to make really interactive websites</p>
+		</li>
+		<li class="skill">
+			<img src="img/skills/bootstrap.png">
+					<p class="skills">
+						Bootstrap
+						<br>
+						<small>Intermediate</small>
+					</p>
+					<p class="skills">A simply way for me to make a website responsive and clean</p>
+		</li>
+		<li class="skill">
+					<img src="img/skills/jquery.jpg">
+					<p class="skills">
+						jQuery
+						<br>
+						<small>Novice</small>
+					</p>
+					<p class="skills">A fun way to add plugins to interact with JavaScript</p>
+		</li>
+		<li class="skill">
+			<img src="img/skills/rails.jpg">
+					<p class="skills">
+						Ruby on Rails
+						<br>
+						<small>Novice</small>
+					</p>
+					<p class="skills">Backend development tool used to make apps for websites.</p>
+		</li>
+		<li class="skill">
+			<img src="img/skills/github.png">
+					<p class="skills">
+						Git Hub
+						<br>
+						<small>Intermediate</small>
+					</p>
+					<p class="skills">Used to interact with other people and to host code.</p>
+		</li>
+	</ul>
 </div>
 <!-- End of Information Section-->
 
 <!-- Start of Experience Section -->
 
 <div id="work1">
-	<div class="row">
-		<div class="images">
 			<div class="col-mid-4">
 				<a href="profile2/index.html" target="_blank"><img src="img/profile2.png"></a>
 				<p class="title">Second profile design</p>
@@ -191,14 +185,8 @@ $(document).ready(function(){
 				<p class="title">Uchiwa Restaurant Demo Design</p>
 			</div>
 			<div class="col-mid-4">
-				<a href="#" target="_blank"><img src="img/game.png"></a>
-				<p class="title">Game Demo Design</p>
-			</div>
-		</div>
-			<div class="col-mid-6">
 				<p class="more">And More To Come</p>
 			</div>
-
 	</div>
 </div>
 
@@ -211,16 +199,15 @@ $(document).ready(function(){
       <div class="phone1">
             <div>
 	            <p class="hello">DON'T BE SHY, GET IN TOUCH!</p>
-	            <p class="msg">Call, Text, Email, Mail, Anyway works! <br>I look forward to working with you!</p>
+	            <p class="msg">Call, Text, Email, Mail, anyway works!</p>
 	            <p class="msg">
 	                Tel: 415.497.2162<br>
-	                Email: bennru33@Gmail.com<br></small>
+	                <a href="mailto:bennru33@gmail.com" target="_top">bennru33@gmail.com</a><br></small>
 	            </p>
 	            <p class="msg">
 	                <small>Address: 15 Elderberry Ct.<br>
-	                Novato, Ca, 94945, USA</small>
+	                Novato, California 94945, USA</small>
 	            </p>
-	            <a href="resume.html" class="resumelink">Resume</a>
         	</div>
 	</div>
 </div>
